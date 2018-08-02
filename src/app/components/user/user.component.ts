@@ -30,18 +30,8 @@ export class UserComponent implements OnInit {
     { 
         /* INITIALIZING */
         console.log('constructor initialized');
-         
-//       
-//      document.addEventListener('DOMContentLoaded', function(){
-//          var loads = document.getElementById('preloader');
-//          loads.style.display='none';
-//          console.log(loads);
-//      });
-//        angular.element(window).bind('load', function(){
-//          var loads = document.getElementById('preloader');
-//          loads.style.display='none';
-//          console.log(loads);})
-//      
+             
+  
      }
 
   ngOnInit() {      
