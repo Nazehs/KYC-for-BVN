@@ -75,6 +75,7 @@ export class UserComponent implements OnInit {
         this.mobile = data.data.phone_number;
         this.regData = data.data.registration_date;
         this.enrolCode = data.data.enrollment_bank;
+        this.bvn = data.data.bvn;
 
         if(data.status == 'success') {
             return show(elems);
