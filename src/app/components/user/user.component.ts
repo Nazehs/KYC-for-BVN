@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {DataService} from '../../services/data.service';
 import {Http} from '@angular/http';
-//import{Router} from '@angular/router';
+
 
 @Component({
   selector: 'app-user',
@@ -10,7 +10,7 @@ import {Http} from '@angular/http';
 })
 
 export class UserComponent implements OnInit {
- /*VARIABLES DECLARATIONS */
+ /*VARIABLES DECLARATIONS*/
     
     bvn:Number;
     DOB:String;
